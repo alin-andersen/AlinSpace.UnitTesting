@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net6.0</TargetFrameworks>
+	  <ImplicitUsings>disable</ImplicitUsings>
+	  <Nullable>disable</Nullable>
+	  <Copyright>Alin Andersen </Copyright>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>alin space, alinspace, alin, space, system</PackageTags>
+	  <PackageProjectUrl>https://github.com/onixion/AlinSpace</PackageProjectUrl>
+	  <Copyright>Copyright © 2022 Alin Andersen</Copyright>
+	  <Company></Company>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <RepositoryUrl>https://github.com/onixion/AlinSpace</RepositoryUrl>
+	  <PackageId>AlinSpace</PackageId>
+	  <Authors>Alin Andersen</Authors>
+	  <Product>AlinSpace</Product>
+	  <Description>AlinSpace library for unit testing.</Description>
+	  <PackageIconUrl />
+	  <PackageIcon>Icon.png</PackageIcon>
+	  <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
+    <PackageReference Include="Moq" Version="4.18.2" />
+    <PackageReference Include="xunit" Version="2.4.2" />
+  </ItemGroup>
+
+</Project>
