@@ -28,10 +28,9 @@ jobs:
       uses: NuGet/setup-nuget@v1.0.7
       with:
         nuget-version: 6.3.0
-        
-    - name: Publish NuGet
-      uses: brandedoutcast/publish-nuget@v2.5.5
-      with:
-        PROJECT_FILE_PATH: AlinSpace.UnitTesting/AlinSpace.UnitTesting.csproj
-        NUGET_KEY: ${{ secrets.NUGET_KEY }}
       
+    - name: Package
+      run: dotnet pack -c Release -o . AlinSpace.UnitTesting/AlinSpace.UnitTesting.csproj
+      
+    - name: Publish
+      run: dotnet nuget push AlinSpace.UnitTesting.*.nupkg -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json
