@@ -7,16 +7,16 @@
 	  <Copyright>Alin Andersen </Copyright>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <RepositoryType>git</RepositoryType>
-	  <PackageTags>alin space, alinspace, alin, space, system</PackageTags>
-	  <PackageProjectUrl>https://github.com/onixion/AlinSpace</PackageProjectUrl>
+	  <PackageTags>alin space, alinspace, alin, space, unit-testing, unit, testing, unittesting</PackageTags>
+	  <PackageProjectUrl>https://github.com/onixion/AlinSpace.UnitTesting</PackageProjectUrl>
 	  <Copyright>Copyright © 2022 Alin Andersen</Copyright>
 	  <Company></Company>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	  <RepositoryUrl>https://github.com/onixion/AlinSpace</RepositoryUrl>
-	  <PackageId>AlinSpace</PackageId>
+	  <RepositoryUrl>https://github.com/onixion/AlinSpace.UnitTesting</RepositoryUrl>
+	  <PackageId>AlinSpace.UnitTesting</PackageId>
 	  <Authors>Alin Andersen</Authors>
-	  <Product>AlinSpace</Product>
+	  <Product>AlinSpace.UnitTesting</Product>
 	  <Description>AlinSpace library for unit testing.</Description>
 	  <PackageIconUrl />
 	  <PackageIcon>Icon.png</PackageIcon>
