@@ -20,8 +20,8 @@ jobs:
     - name: d
       run: ls -la
     - name: Restore dependencies
-      run: dotnet restore .
+      run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore AlinSpace.sln 
+      run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal AlinSpace.sln 
+      run: dotnet test --no-build --verbosity normal 
