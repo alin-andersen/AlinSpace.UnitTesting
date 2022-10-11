@@ -18,9 +18,9 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: d
-      run: pwd
+      run: ls -la
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore .
     - name: Build
       run: dotnet build --no-restore AlinSpace.sln 
     - name: Test
