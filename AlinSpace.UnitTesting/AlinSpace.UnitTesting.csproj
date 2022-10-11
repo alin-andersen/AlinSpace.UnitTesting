@@ -20,7 +20,7 @@
 	  <Description>AlinSpace library for unit testing.</Description>
 	  <PackageIconUrl />
 	  <PackageIcon>Icon.png</PackageIcon>
-	  <Version>1.0.0</Version>
+	  <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
