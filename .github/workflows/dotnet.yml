@@ -19,7 +19,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
         
-   - name: Restore
+    - name: Restore
       run: dotnet restore
       
     - name: Build
