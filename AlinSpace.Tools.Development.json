@@ -1,0 +1,17 @@
+{
+  "PathToSolutionFile": "AlinSpace.UnitTesting.sln",
+  "PathToLocalNugetFolder": "C:\\AlinSpace\\Nuget",
+  "PathToDebugFiles": "C:\\AlinSpace\\Pdbs",
+  "BuildInDebugConfiguration": true,
+  "Author": "Alin Andersen",
+  "Copyright": "Copyright © 2022 Alin Andersen",
+  "RepositoryUrl": "https://github.com/onixion/AlinSpace.UnitTesting",
+  "ProjectUrl": "https://github.com/onixion/AlinSpace.UnitTesting",
+  "Tags": "alinspace; alin; space; tests; test; unit-testing; unit; units;",
+  "Projects": [
+    {
+      "Name": "AlinSpace.UnitTesting",
+      "Tags": ""
+    }
+  ]
+}
