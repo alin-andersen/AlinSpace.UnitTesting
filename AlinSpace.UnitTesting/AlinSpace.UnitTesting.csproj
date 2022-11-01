@@ -20,7 +20,7 @@
     <Description>AlinSpace library for unit testing.</Description>
     <PackageIconUrl />
     <PackageIcon>Icon.png</PackageIcon>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
