@@ -20,7 +20,7 @@
     <Description>AlinSpace library for unit testing.</Description>
     <PackageIconUrl />
     <PackageIcon>Icon.png</PackageIcon>
-    <Version>1.0.8</Version>
+    <Version>1.0.9</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
@@ -30,7 +30,7 @@
   <ItemGroup>
     <PackageReference Include="AlinSpace" Version="6.1.1" />
     <PackageReference Include="Bogus" Version="34.0.2" />
-    <PackageReference Include="FluentAssertions" Version="6.7.0" />
-    <PackageReference Include="Moq" Version="4.18.2" />
+    <PackageReference Include="FluentAssertions" Version="6.8.0" />
+    <PackageReference Include="Moq" Version="4.18.4" />
   </ItemGroup>
 </Project>
